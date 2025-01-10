@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 // Middleware
-app.use(cors("https://dazzling-elf-9ed1d3.netlify.app"));
+app.use(cors("https://luminous-cactus-575bd4.netlify.app"));
 app.use(bodyParser.json());
 
 
